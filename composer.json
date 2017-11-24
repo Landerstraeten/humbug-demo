@@ -1,0 +1,25 @@
+{
+  "name": "landerstraeten/humbug-poc",
+  "description": "humbug poc",
+  "authors": [
+    {
+      "name": "Lander Vanderstraeten",
+      "homepage": "https://landerstraeten.be"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "humbug/humbug": "dev-master"
+  }
+}
+
